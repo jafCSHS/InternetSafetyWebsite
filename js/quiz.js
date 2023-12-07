@@ -138,6 +138,10 @@ const highScoreLabel = document.getElementById('highscore');
 highScoreLabel.innerText = getHighScore();
 
 startButton.addEventListener('click', async () => {
+	// Reset the score
+	gameData.score = 0;
+	scoreLabel.innerText = gameData.score;
+
 	// Disable the difficulty selector
 	setButtonActive(false);
 
@@ -195,6 +199,8 @@ startButton.addEventListener('click', async () => {
 			if (answerElement) {
 				answerElement.hidden = false;
 				answerElement.innerText = answer.text;
+				answerElement.classList.remove('btn-danger');
+				answerElement.classList.add('btn-primary');
 				answerElement.classList.remove('disabled');
 			} else {
 				answerElement.hidden = true;
@@ -238,6 +244,8 @@ startButton.addEventListener('click', async () => {
 				break;
 			} else {
 				answerElements[answerInfo.selected].classList.add('disabled');
+				answerElements[answerInfo.selected].classList.remove('btn-primary');
+				answerElements[answerInfo.selected].classList.add('btn-danger');
 				selectAnswer(null);
 			}
 		}
