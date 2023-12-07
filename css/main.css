@@ -51,3 +51,41 @@ body {
 	padding: 10px;
 	font-size: 1.5em;
 }
+
+.eduforums {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.eduforums > div {
+	flex: 0 0 30%;
+}
+
+.eduforums .badLinksSec,
+.eduforums .phishingSec,
+.eduforums .passSafeSec {
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.eduforums img {
+	max-width: 100px;
+	height: auto;
+}
+
+.eduforums p {
+	margin: 5px 0;
+}
+
+.eduforums a.fbutton {
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: #3498db;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
