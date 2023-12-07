@@ -52,28 +52,32 @@ body {
 	font-size: 1.5em;
 }
 
+.aboutsec {
+	padding-left: 20em;
+	padding-right: 20em;
+}
+
 .eduforums {
-	display: flex;
+	text-align: center;
 	justify-content: space-between;
 	margin: 20px 0;
+	padding-left: 10em;
+	padding-right: 10em;
 }
 
-.eduforums > div {
-	flex: 0 0 30%;
-}
-
-.eduforums .badLinksSec,
-.eduforums .phishingSec,
-.eduforums .passSafeSec {
+.cardCustom {
 	border: 1px solid #ccc;
 	padding: 10px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	text-align: center;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
+	margin: 20px;
+	height: 16em;
+	border-radius: 0.25em;
 }
 
 .eduforums img {
-	max-width: 100px;
+	max-height: 10em;
 	height: auto;
 }
 
@@ -88,4 +92,13 @@ body {
 	color: #fff;
 	border-radius: 4px;
 	cursor: pointer;
+}
+
+.answer {
+	width: 60%;
+	font-size: 1.2em;
+}
+
+.large {
+	font-size: 1.5em;
 }

@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Safety</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Safety</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+	</head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+	<body>
+		<!---Nav Bar--->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+			<p class="text-center fullwide">LGOG Web Safety</p>
+		</nav>
+		<!---Header--->
 
-<body>
-    <!---Nav Bar--->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-        <p class="text-center fullwide">LGOG Web Safety</p>
-    </nav>
-    <!---Header--->
+		<header class="bg-primary text-light">
+			<h1
+				class="text-center"
+				style="width: 100%; padding-top: 5em; padding-bottom: 5em"
+			>
+				HEADER
+			</h1>
+		</header>
 
-    <header class="bg-primary text-light">
-        <h1 class="text-center" style="width:100%; padding-top: 5em;padding-bottom: 5em;">HEADER</h1>
-    </header>
+		<!----About Section--->
+		<section class="aboutsec">
+			<div>
+				<center>
+					<h1>About Our Page</h1>
+				</center>
+				<h5>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+					totam.
+				</h5>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet
+					proin fermentum leo vel orci porta non pulvinar. Vulputate ut pharetra
+					sit amet aliquam id diam. Lectus urna duis convallis convallis tellus.
+				</p>
+				<a href="aboutPage.html" class="btn btn-outline-primary">Learn More</a>
+			</div>
+		</section>
+		<!---Edu Forums--->
+		<section class="eduforums">
+			<h1>Informational Forums</h1>
+			<h4>Lorem ipsum dolor sit amet.</h4>
 
-    <!----About Section--->
-    <section class="aboutsec">
-        <div>
-            <center>
-                <h1>About Our Page</h1>
-            </center>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, totam.</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Imperdiet proin fermentum leo vel orci porta non pulvinar. Vulputate ut pharetra
-                sit amet aliquam id diam. Lectus urna duis convallis convallis tellus. </p>
-            <a href="aboutPage.html" class="learnMore">Learn More</a>
-        </div>
-    </section>
-    <!---Edu Forums--->
-    <section class="eduforums">
-        <div>
-            <h1>Informational Forums</h1>
-            <h4>Lorem ipsum dolor sit amet.</h4>
+			<div class="third cardCustom badLinksSec inline">
+				<img src="images/dangerouslink.jpg" />
+				<p>Detecting a Suspicious Link</p>
+				<a href="badLinks.html" class="btn btn-outline-primary">Learn More</a>
+			</div>
+			<div class="third cardCustom phishingSec inline">
+				<img src="images/phishing.jpeg" />
+				<p>The Dangers of Phishing</p>
+				<a href="phishing.html" class="btn btn-outline-primary">Learn More</a>
+			</div>
+			<div class="third cardCustom passSafeSec inline">
+				<img src="images/passSafe.png" />
+				<p>Importance of Secure Passwords</p>
+				<a href="passSafety.html" class="btn btn-outline-primary">Learn More</a>
+			</div>
+		</section>
+		<!-- Minigame -->
+		<section class="minigames"></section>
+		<!---Footer--->
 
-            <div class="badLinksSec">
-                <img src="images/dangerouslink.jpg">
-                <p>Detecting a Suspicious Link</p>
-                <a href="badLinks.html" class="fbutton">Learn More</a>
-            </div>
-            <div class="phishingSec">
-                <img src="images/phishing.jpeg">
-                <p>The Dangers of Phishing</p>
-                <a href="phishing.html" class="fbutton">Learn More</a>
-            </div>
-            <div class="passSafeSec">
-                <img src="images/passSafe.png">
-                <p>Importance of Secure Passwords</p>
-                <a href="passSafety.html" class="fbutton">Learn More</a>
-            </div>
-        </div>
-    </section>
-    <!-- Minigame -->
-    <section class="minigames"></section>
-    <!---Footer--->
-
-    <footer>
-        <div>
-            <a href="aboutPage.html" class="learn-more">Learn More</a>
-        </div>
-    </footer>
-</body>
-
+		<footer>
+			<div>
+				<a href="aboutPage.html" class="learn-more">Learn More</a>
+			</div>
+		</footer>
+	</body>
 </html>
