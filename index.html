@@ -79,11 +79,38 @@
 		<!-- Minigame -->
 		<section class="minigames"></section>
 		<!---Footer--->
-
-		<footer>
-			<div>
-				<a href="aboutPage.html" class="learn-more">Learn More</a>
+		<section class="footer"
+			<div class="socialLinks">
+				<a href="???"> target="???">Instagram</a>
+				<a href="???"> target="???">YouTube</a>
+				<a href="???"> target="???">Twitter</a>
 			</div>
-		</footer>
+			<div class="contactSec">
+				<button onclick=" "openContactModule()">Contact Us</button>
+				<div id="modal-content" class="modal">
+					<div class="modal-content">
+						<span class="close"> onClick="closeContactModule()">&times;</span>
+						<textarea placeholder="ldfghjkkjhgfdfghj"></textarea>
+						<button>Send</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="company-info">
+				<h4>IDP Comp</h4>
+				<p> Phone Number: 9876789878998</p>
+				<p> Address: fghjkjhgfghjgfghj</p>
+			</div>
+		</section>
+
+		<script>
+			function openContactModule() {
+				document.getElementById('modal-contact').style.display = 'block';
+			}
+
+			function closeContactModule() {
+				document.getElementById('modal-contact').style.display = 'none';
+			}
+		</script>
 	</body>
 </html>
