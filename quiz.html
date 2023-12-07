@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Safety Quiz</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="module" src="js/quiz.js"></script>
+	</head>
+	<body>
+		<section class="game">
+			<div class="scoreInfo pad bg-primary text-light">
+				<h2 class="text-center fullwide">Current Score</h2>
+				<h1 id="score" class="text-center fullwide">0</h1>
+				<h5 class="text-center fullwide">
+					High Score: <span id="highscore">10000</span>
+				</h5>
+			</div>
+
+			<div class="pad difficulties">
+				<h2 class="pad text-center fullwide">Choose Difficulty</h2>
+				<div
+					id="difficultySelector"
+					class="difficultiesButtons fullwide text-center"
+				>
+					<label class="third btn btn-outline-success active">
+						<input
+							hidden
+							type="radio"
+							name="options"
+							id="easy"
+							autocomplete="off"
+							checked
+						/>
+						Easy
+					</label>
+					<label class="third btn btn-outline-warning">
+						<input
+							hidden
+							type="radio"
+							name="options"
+							id="medium"
+							autocomplete="off"
+						/>
+						Medium
+					</label>
+					<label class="third btn btn-outline-danger">
+						<input
+							hidden
+							type="radio"
+							name="options"
+							id="hard"
+							autocomplete="off"
+						/>
+						Hard
+					</label>
+				</div>
+				<div class="quizSection text-center pad">
+					<div class="startButton">
+						<button class="btn btn-primary btn-big padOut" id="start">
+							Begin Quiz
+						</button>
+					</div>
+					<div
+						hidden
+						id="quiz"
+						class="quiz half inline bg-dark text-light allpad round"
+					>
+						<div class="question">
+							<h2 class="text-center fullwide">Question</h2>
+							<p class="text-center fullwide">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Quisquam quod, voluptatum, quae, quia quibusdam voluptatem
+								voluptas officiis quos voluptatibus quas doloribus. Quisquam
+								quod, voluptatum, quae, quia quibusdam voluptatem voluptas
+								officiis quos voluptatibus quas doloribus.
+							</p>
+						</div>
+						<div class="answers">
+							<div class="btn btn-primary answer block padOut">Answer 1</div>
+							<div class="btn btn-primary answer block padOut">Answer 2</div>
+							<div class="btn btn-primary answer block padOut">Answer 3</div>
+							<div class="btn btn-primary answer block padOut">Answer 4</div>
+						</div>
+						<div class="submit">
+							<button class="btn btn-primary">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
