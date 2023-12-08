@@ -102,3 +102,35 @@ body {
 .large {
 	font-size: 1.5em;
 }
+
+.note {
+	background-color: #292F36;
+	border: 1px solid #4e595f;
+  }
+  .post-block {
+	background-color: #292F36;
+	margin-bottom: 10px;
+  }
+  .post-block .content {
+	padding: 20px;
+  }
+  .post-block .content h3 {
+	margin: 0 0 6px;
+	font-size: 20px;
+	line-height: 1.5;
+	text-transform: capitalize;
+  }
+  
+  .note .media-wrapper {
+	border-bottom: 1px solid #4e595f;
+  }
+  
+  .note .excerpt h3 {
+	font-size: 20px;
+	line-height: 1.5;
+	text-transform: capitalize;
+  }
+  
+  .all-post {
+	margin-top: 50px;
+  }
