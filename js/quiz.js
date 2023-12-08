@@ -15,28 +15,6 @@ const gameData = {
 	difficulty: 'easy',
 	questions: {
 		easy: [
-			/*
-		Phishing:
-    What is phishing?
-    A. A type of fishing technique
-    B. A method of collecting seashells
-    C. An attempt to trick individuals into revealing sensitive information
-    D. A form of physical exercise
-
-    Password Safety:
-    What is a strong password?
-    A. "123456"
-    B. "password123"
-    C. "Secure@P@ssw0rd!"
-    D. "abcde"
-
-    Link Safety:
-    How can you verify the safety of a link?
-    A. Click on it and see where it leads
-    B. Hover over it to preview the destination
-    C. Ignore it, as all links are safe
-    D. Share it with friends before opening
-		 */
 			{
 				question: 'What is phishing?',
 				answers: [
@@ -69,49 +47,6 @@ const gameData = {
 			},
 		],
 		medium: [
-			/*
-    Phishing:
-    What is a common phishing method?
-    A. Encryption
-    B. Fake Email
-    C. Firewall
-    D. Authentication
-
-    Password Safety:
-    Which of the following is a good practice for password safety?
-    A. Using the same password for multiple accounts
-    B. Keeping the same password for a long time
-    C. Sharing passwords with friends when requested
-    D. Enabling two-factor authentication
-
-    Link Safety:
-    Why can URL shortening be a concern for link safety?
-    A. It improves link performance
-    B. It shortens the time it takes to load a webpage
-    C. It can hide the destination URL, making it harder to assess
-    D. It reduces the likelihood of phishing attacks
-
-    Phishing:
-    What is spear phishing?
-    A. A fishing technique using a spear
-    B. Targeted phishing attacks on specific individuals or organizations
-    C. A form of deep-sea fishing
-    D. A phishing attack involving multiple attackers
-
-    Password Safety:
-    Why is it important to avoid using easily guessable passwords?
-    A. They make login faster
-    B. They are more memorable
-    C. They provide better security
-    D. They are easier to guess
-
-    Link Safety:
-    What is the purpose of a link in an email?
-    A. To confuse the reader
-    B. To add visual appeal
-    C. To redirect to a website or resource
-    D. To increase email length
-		*/
 			{
 				question: 'What is a common phishing method?',
 				answers: [
@@ -146,7 +81,7 @@ const gameData = {
 						correct: false,
 					},
 					{
-						text: 'It can hide the destination URL, making it harder to assess',
+						text: 'It can hide the destination URL, and thus the safety of the link',
 						correct: true,
 					},
 					{
