@@ -76,24 +76,6 @@ body {
 	border-radius: 0.25em;
 }
 
-.eduforums img {
-	max-height: 10em;
-	height: auto;
-}
-
-.eduforums p {
-	margin: 5px 0;
-}
-
-.eduforums a.fbutton {
-	display: inline-block;
-	padding: 8px 16px;
-	background-color: #3498db;
-	color: #fff;
-	border-radius: 4px;
-	cursor: pointer;
-}
-
 .answer {
 	width: 60%;
 	font-size: 1.2em;
@@ -101,4 +83,43 @@ body {
 
 .large {
 	font-size: 1.5em;
+}
+
+.note {
+	background-color: #ADD8E6;
+	border: 1px solid #e3f8ff;
+	color:#fff
+  }
+  .post-block {
+	background-color: #ADD8E6;
+	margin-bottom: 10px;
+  }
+  .post-block .content {
+	padding: 20px;
+  }
+  .post-block .content h3 {
+	margin: 0 0 6px;
+	font-size: 20px;
+	line-height: 1.5;
+	text-transform: capitalize;
+	color:#fff
+  }
+  
+  .note .media-wrapper {
+	border-bottom: 1px solid #e3f8ff;
+  }
+  
+  .note .excerpt h3 {
+	font-size: 20px;
+	line-height: 1.5;
+	text-transform: capitalize;
+	color: #fff;
+  }
+  
+  .all-post {
+	margin-top: 50px;
+  }
+
+  .post-block .content h3 {
+    color: #fff;
 }
