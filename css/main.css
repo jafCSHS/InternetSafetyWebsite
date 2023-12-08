@@ -52,7 +52,7 @@ body {
 	font-size: 1.5em;
 }
 
-.aboutsec {
+.articlePadding {
 	padding-left: 20em;
 	padding-right: 20em;
 }
@@ -86,40 +86,62 @@ body {
 }
 
 .note {
-	background-color: #ADD8E6;
+	/* background-color: #add8e6; */
 	border: 1px solid #e3f8ff;
-	color:#fff
-  }
-  .post-block {
-	background-color: #ADD8E6;
+	color: #fff;
+}
+.post-block {
+	/* background-color: #add8e6; */
 	margin-bottom: 10px;
-  }
-  .post-block .content {
+}
+.post-block .content {
 	padding: 20px;
-  }
-  .post-block .content h3 {
+}
+.post-block .content h3 {
 	margin: 0 0 6px;
 	font-size: 20px;
 	line-height: 1.5;
-	text-transform: capitalize;
-	color:#fff
-  }
-  
-  .note .media-wrapper {
+	color: #fff;
+}
+
+.note .media-wrapper {
 	border-bottom: 1px solid #e3f8ff;
-  }
-  
-  .note .excerpt h3 {
+}
+
+.note .excerpt h3 {
 	font-size: 20px;
 	line-height: 1.5;
 	text-transform: capitalize;
 	color: #fff;
-  }
-  
-  .all-post {
-	margin-top: 50px;
-  }
+}
 
-  .post-block .content h3 {
-    color: #fff;
+.all-post {
+	margin-top: 50px;
+}
+
+.post-block .content h3 {
+	color: #fff;
+}
+
+.padOverUnder {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.padOverUnderLess {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.spacer {
+	height: 2em;
+}
+
+.niceGrad {
+	background: var(--primary)
+		linear-gradient(135deg, #ffffff60 0%, #ffffff00 100%);
+}
+
+.fitVert {
+	max-height: 3em;
 }

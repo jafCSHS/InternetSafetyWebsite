@@ -5,12 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Web Safety</title>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
 			rel="stylesheet"
-		/>
+		/> -->
 		<link rel="stylesheet" href="css/main.css" />
 		<link
 			rel="stylesheet"
@@ -23,185 +23,172 @@
 	<body>
 		<!---Nav Bar--->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-			<p class="text-center fullwide">LGOG Web Safety</p>
+			<span class="text-center fullwide large">
+				<a href="/">
+					<img src="assets/img/logo.svg" class="fitVert" alt=""
+				/></a>
+				Web Safety
+			</span>
 		</nav>
 		<!---Header--->
 
-		<header class="bg-primary text-light">
-			<h1
-				class="text-center"
-				style="width: 100%; padding-top: 5em; padding-bottom: 5em"
-			>
-				HEADER
+		<header class="niceGrad text-light">
+			<h1 class="fullwide text-center padOverUnder">
+				The Importance of Internet Safety
 			</h1>
 		</header>
 
 		<!----About Section--->
-		<section class="aboutsec">
+		<section class="articlePadding padOverUnder">
 			<div>
 				<center>
 					<h1>About Our Page</h1>
 				</center>
-				<h5>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-					totam.
-				</h5>
+				<div class="spacer"></div>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet
-					proin fermentum leo vel orci porta non pulvinar. Vulputate ut pharetra
-					sit amet aliquam id diam. Lectus urna duis convallis convallis tellus.
+					We are dedicated to promoting data safety and informing people on how
+					to keep their information safe and secure. We want to stop people from
+					getting their lives stolen online, just because they did not have the
+					resources to avoid it.
 				</p>
+				<div class="spacer"></div>
 				<a href="aboutPage.html" class="btn btn-outline-primary">Learn More</a>
 			</div>
 		</section>
 		<!---Edu Forums--->
 		<section id="blog" class="section">
 			<div class="container">
-			  <div class="row">
-				<div class="col-12">
-				  <div class="title text-center wow fadeInDown">
-					<h2> Educational <span class="color">Forums</span></h2>
-					<h6>Lorem ipsum dolor sit amet.</h6>
-					<div class="border"></div>
-				  </div>
+				<div class="row">
+					<div class="col-12">
+						<div class="title text-center wow fadeInDown">
+							<h2>Educational <span class="color">Forums</span></h2>
+							<div class="spacer"></div>
+							<div class="border"></div>
+						</div>
+					</div>
+
+					<article
+						class="col-lg-4 col-md-6 wow fadeInUp"
+						data-wow-duration="500ms"
+					>
+						<div class="post-block bg-dark text-light">
+							<div class="media-wrapper">
+								<img
+									src="assets/img/dangerouslink.jpg"
+									alt="example of a dangerous link"
+									class="img-fluid"
+								/>
+							</div>
+							<div class="content">
+								<h3>Identifying a Suspicious Link</h3>
+								<p></p>
+								<a class="btn btn-outline-light" href="dangerousLinks.html"
+									>Read more</a
+								>
+							</div>
+						</div>
+					</article>
+
+					<article
+						class="col-lg-4 col-md-6 wow fadeInUp"
+						data-wow-duration="500ms"
+						data-wow-delay="200ms"
+					>
+						<div class="post-block bg-dark text-light">
+							<div id="gallery-post" class="media-wrapper">
+								<div class="item">
+									<img
+										src="assets/img/phishing.jpeg"
+										alt="example of phishing"
+										class="img-fluid"
+									/>
+								</div>
+							</div>
+							<div class="content">
+								<h3>The Dangers of Phishing</h3>
+								<p></p>
+								<a class="btn btn-outline-light" href="phishing.html"
+									>Read more</a
+								>
+							</div>
+						</div>
+					</article>
+
+					<article
+						class="col-lg-4 col-md-6 wow fadeInUp"
+						data-wow-duration="500ms"
+						data-wow-delay="400ms"
+					>
+						<div class="post-block bg-dark text-light">
+							<div class="media-wrapper">
+								<img
+									src="assets/img/passSafe.png"
+									alt="example of a safe password"
+									class="img-fluid"
+								/>
+							</div>
+
+							<div class="content">
+								<h3>What is a Safe Password</h3>
+								<p></p>
+								<a class="btn btn-outline-light" href="passSafety.html"
+									>Read more</a
+								>
+							</div>
+						</div>
+					</article>
 				</div>
 
-				<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms">
-				  <div class="post-block">
-					<div class="media-wrapper">
-					  <img src="images/dangerouslink.jpg" alt="example of a dangerous link" class="img-fluid">
-					</div>
-					<div class="content">
-					  <h3>Identifying a Suspicious Link</h3>
-					  <p></p>
-					  <a class="btn btn-transparent" href="dangerousLinks.html">Read more</a>
-					</div>
-				  </div>
-				</article>
-
-				<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-				  <div class="post-block">
-					<div id="gallery-post" class="media-wrapper">
-					  <div class="item">
-						<img src="images/phishing.jpeg" alt="example of phishing" class="img-fluid">
-					  </div>
-					</div>
-					<div class="content">
-					  <h3>The Dangers of Phishing</h3>
-					  <p></p>
-					  <a class="btn btn-transparent" href="phishing.html">Read more</a>
-					</div>
-				  </div>
-				</article>
-
-				<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-				  <div class="post-block">
-					<div class="media-wrapper">
-					  <img src="images/passSafe.png" alt="example of a safe password" class="img-fluid">
-					</div>
-		
-					<div class="content">
-					  <h3>The Importance of a Secure Password</h3>
-					  <p></p>
-					  <a class="btn btn-transparent" href="passSafety.html">Read more</a>
-					</div>
-				  </div>
-				</article>
-				</div>
-			  </div>
-			</div>
-		  </section> 
-		<!-- Minigame -->
-		<section class="minigames"></section>
-		<!---Footer--->
-		<section id="contact-us" class="contact-us section-bg">
-			<div class="container">
-			  <div class="row">
-		
-				<div class="col-12">
-				  <!-- section title -->
-				  <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-					<h2>Get In <span class="color">Touch</span> With Us</h2>
-					<div class="border"></div>
-				  </div>
-				  <!-- /section title -->
-				</div>
-		
-				<!-- Contact Details -->
-				<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				  <h3>Contact Details</h3>
-				  <p></p>
-				  <div class="contact-details">
-					<div class="con-info clearfix">
-					  <i class="tf-map-pin"></i>
-					  <span>Internet Data Protection Company</span>
-					  <span>Po Box 1459
-						Homestead, FL, 33152</span>
-					</div>
-		
-					<div class="con-info clearfix">
-					  <i class="tf-ion-ios-telephone-outline"></i>
-					  <span>Phone: (305) 234-2546</span>
-					</div>
-		
-					<div class="con-info clearfix">
-					  <i class="tf-ion-ios-email-outline"></i>
-					  <span>Email: idpcomp@gmail.com </span>
-					</div>
-				  </div>
-				</div>
-				<!-- / End Contact Details -->
-		
-				<!-- Contact Form -->
-				<div class="contact-form col-lg-6 mt-4 mt-lg-0 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				  <form id="contact-form" method="post" action="sendmail.php" role="form">
-		
-					<div class="form-group">
-					  <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-					</div>
-		
-					<div class="form-group">
-					  <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-					</div>
-		
-					<div class="form-group">
-					  <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-					</div>
-		
-					<div class="form-group">
-					  <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-					</div>
-		
-					<div id="cf-submit">
-					  <input type="submit" id="contact-submit" class="btn btn-outline-primary" value="Submit">
-					</div>
-		
-				  </form>
-				</div>
-				<footer id="footer" class="bg-one">
+				<div class="spacer"></div>
+				<!-- Minigame -->
+				<section class="minigames">
+					<h2 class="title">Quiz Minigame</h2>
+					<div class="spacer"></div>
+					<p>
+						If you want a quick refresher on what you've learned, try out our
+						quiz minigame. Try and get the best score you can!
+					</p>
+					<a href="/quiz.html" class="btn btn-outline-primary">Open Quiz</a>
+				</section>
+				<!---Footer--->
+				<div class="spacer"></div>
+				<section id="contact-us" class="contact-us section-bg">
 					<div class="container">
-					  <div class="row wow fadeInUp" data-wow-duration="500ms">
-						<div class="col-lg-12">
-						  <div class="social-icon">
-							<ul class="list-inline">
-							  <li class="list-inline-item"><a href="https://www.facebook.com">
-								<i class="fi-snsuxl-facebook fab"></i></a></li>
-							  <li class="list-inline-item"><a href="https://twitter.com">
-								<i class="fi-snsuxl-twitter-solid fab"></i></a></li>
-							  <li class="list-inline-item"><a href="https://www.youtube.com">
-								<i class="fi-swsuxl-youtube fab"></i></a></li>
-							  <li class="list-inline-item"><a href="https://dribbble.com">
-								<i class="fi-snsuxl-telegram fab"></i></a></li>
-							  <li class="list-inline-item"><a href="https://pinterest.com">
-								<i class="fi-snsuxl-pinterest-alt fab"></i></a></li>
-							</ul>
-						  </div>
-						</div> <!-- end col lg 12 -->
-					  </div> <!-- end row -->
-					</div> <!-- end container -->
-				  </footer> <!-- end footer -->
-				</div>
+						<div class="row">
+							<div class="col-12">
+								<!-- section title -->
+								<div
+									class="title text-center wow fadeIn"
+									data-wow-duration="500ms"
+								>
+									<h2>Get In <span class="color">Touch</span> With Us</h2>
+									<div class="border"></div>
+								</div>
+								<!-- /section title -->
+							</div>
+
+							<!-- Contact Details -->
+							<div
+								class="contact-info col-lg-12 wow fadeInUp text-center padOverUnderLess"
+								data-wow-duration="500ms"
+							>
+								<h3>Contact Details</h3>
+								<p></p>
+								<div class="contact-details">
+									<div class="con-info clearfix">
+										<i class="tf-ion-ios-email-outline"></i>
+										<span>Email: fergusoncshs@gmail.com </span>
+									</div>
+								</div>
+							</div>
+							<!-- / End Contact Details -->
+
+							<!-- end container -->
+							<!-- end footer -->
+						</div>
+					</div>
+				</section>
 			</div>
+		</section>
 	</body>
 </html>
