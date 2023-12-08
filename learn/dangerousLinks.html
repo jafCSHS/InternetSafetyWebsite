@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Safety</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/learn.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+	</head>
+
+	<body>
+		<!---Nav Bar--->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+			<span class="text-center fullwide large">
+				<a href="/">
+					<img src="/assets/img/logo.svg" class="fitVert" alt=""
+				/></a>
+				Web Safety
+			</span>
+		</nav>
+
+		<!--- Title Header--->
+		<header class="bg-gradient text-light">
+			<h1
+				class="text-center"
+				style="width: 100%; padding-top: 2em; padding-bottom: 2em"
+			>
+				How Can I Tell if a Link is Dangerous?
+			</h1>
+		</header>
+		<main>
+			<div class="contentContainer">
+				<div class="articleContainer">
+					<div>
+						<img src="/assets/img/dangerouslink.jpg" class="articleImage" />
+						<h1>Dangerous Links</h1>
+
+						<p>
+							The internet has become a vast and dangerous place, and while
+							there are many websites which are safe to use, there are also many
+							which will try to cause you harm.
+						</p>
+						<p>
+							Many links will pretend to be a different website than they
+							actually are, and will try to steal your information. This is
+							called phishing, and is a very common way for people to steal your
+							information. More information on phishing can be found on our
+							other article
+							<a href="/learn/phishing.html">here</a>.
+						</p>
+						<p>
+							There are also websites which only monitor the user's actions,
+							which are less direct, but can still cause the user to lose
+							important information.
+						</p>
+
+						<h2>Man-in-the-Middle Attacks</h2>
+						<p>
+							Sometimes, a malicious device will attempt to go between you and
+							the website you are trying to access in a way that makes the link
+							look correct. This is very hard to detect when a website uses
+							http, but if it uses HTTPS, then the website will not load if it
+							is being manipulated unless you manually switch it to http.
+						</p>
+						<p>
+							Having an HTTPS lock can help ensure the safety of a website. This
+							is visible as a green lock next to the URL of the website. This
+							means that data transfer to and from the website is encrypted, and
+							is much safer than a website without the lock. It is important to
+							note that this only signifies that the website is coming from the
+							url it says it is, and does not necessarily mean that the website
+							is safe to use. Always check the URL to make sure it is the
+							correct one.
+						</p>
+
+						<h2>Common Signs of a Compromised Link</h2>
+						<p>Some common ways to check for a dangerous link include:</p>
+						<ol>
+							<li>
+								Many websites will have a URL which is similar to the website
+								they are trying to impersonate, but not quite the same. For
+								example, a website which is trying to impersonate Google may
+								have a URL such as https://www.g00gle.com, which is very similar
+								to the real Google website, but is not the same. Always check
+								the URL to make sure it is the correct one.
+							</li>
+							<li>
+								Having an incorrect TLD (Top Level Domain) and/or SLD (Second
+								Level Domain). For example, a website which is trying to
+								impersonate Google may have a URL such as
+								https://www.google.com.fake.com, which is very similar to the
+								real Google website, but is not the same. In reality, you are
+								accessing the "google" subdomain on the fake.com website. Always
+								check the URL to make sure it is the correct one.
+							</li>
+							<li>
+								Using characters which look similar to other characters. For
+								example, a website may use the ρ character instead of the p
+								character, which looks very similar in order to trick the user
+								into thinking it is the correct website. Always check the URL
+								carefully to make sure it is the correct one.
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<div
+			class="contact-info col-lg-12 wow fadeInUp text-center padOverUnderLess bg-dark text-light"
+			data-wow-duration="500ms"
+		>
+			<h2>Get In <span class="color">Touch</span> With Us</h2>
+			<div class="border"></div>
+			<div class="spacer"></div>
+			<h3>Contact Details</h3>
+			<p></p>
+			<div class="contact-details">
+				<div class="con-info clearfix">
+					<i class="tf-ion-ios-email-outline"></i>
+					<span>Email: fergusoncshs@gmail.com</span>
+				</div>
+				<div class="con-info clearfix">
+					<span
+						>Feedback:
+						<a href="https://forms.gle/83ZX7YwBibCk9fCM7">Form</a></span
+					>
+				</div>
+				<div class="con-info clearfix">
+					<span>Team ID: MIA03</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

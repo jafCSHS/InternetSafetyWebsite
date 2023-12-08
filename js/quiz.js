@@ -15,45 +15,320 @@ const gameData = {
 	difficulty: 'easy',
 	questions: {
 		easy: [
+			/*
+		Phishing:
+    What is phishing?
+    A. A type of fishing technique
+    B. A method of collecting seashells
+    C. An attempt to trick individuals into revealing sensitive information
+    D. A form of physical exercise
+
+    Password Safety:
+    What is a strong password?
+    A. "123456"
+    B. "password123"
+    C. "Secure@P@ssw0rd!"
+    D. "abcde"
+
+    Link Safety:
+    How can you verify the safety of a link?
+    A. Click on it and see where it leads
+    B. Hover over it to preview the destination
+    C. Ignore it, as all links are safe
+    D. Share it with friends before opening
+		 */
 			{
-				question: 'What is the capital of France?',
+				question: 'What is phishing?',
 				answers: [
-					{ text: 'New York', correct: false },
-					{ text: 'London', correct: false },
-					{ text: 'Paris', correct: true },
-					{ text: 'Dublin', correct: false },
+					{ text: 'A type of fishing technique', correct: false },
+					{ text: 'A method of collecting seashells', correct: false },
+					{
+						text: 'An attempt to trick individuals into revealing sensitive information',
+						correct: true,
+					},
+					{ text: 'A form of physical exercise', correct: false },
 				],
 			},
 			{
-				question: 'Who is CEO of Tesla?',
+				question: 'What is a strong password?',
 				answers: [
-					{ text: 'Jeff Bezos', correct: false },
-					{ text: 'Elon Musk', correct: true },
-					{ text: 'Bill Gates', correct: false },
-					{ text: 'Tony Stark', correct: false },
+					{ text: '"123456"', correct: false },
+					{ text: '"password123"', correct: false },
+					{ text: '"Secure@P@ssw0rd!"', correct: true },
+					{ text: '"abcde"', correct: false },
 				],
 			},
 			{
-				question: 'The iPhone was created by which company?',
+				question: 'How can you verify the safety of a link?',
 				answers: [
-					{ text: 'Apple', correct: true },
-					{ text: 'Intel', correct: false },
-					{ text: 'Amazon', correct: false },
-					{ text: 'Microsoft', correct: false },
-				],
-			},
-			{
-				question: 'How many Harry Potter books are there?',
-				answers: [
-					{ text: '1', correct: false },
-					{ text: '4', correct: false },
-					{ text: '6', correct: false },
-					{ text: '7', correct: true },
+					{ text: 'Click on it and see where it leads', correct: false },
+					{ text: 'Ensure that the domain name is correct', correct: true },
+					{ text: 'Ignore it, as all links are safe', correct: false },
+					{ text: 'Share it with friends before opening', correct: false },
 				],
 			},
 		],
-		medium: [],
-		hard: [],
+		medium: [
+			/*
+    Phishing:
+    What is a common phishing method?
+    A. Encryption
+    B. Fake Email
+    C. Firewall
+    D. Authentication
+
+    Password Safety:
+    Which of the following is a good practice for password safety?
+    A. Using the same password for multiple accounts
+    B. Keeping the same password for a long time
+    C. Sharing passwords with friends when requested
+    D. Enabling two-factor authentication
+
+    Link Safety:
+    Why can URL shortening be a concern for link safety?
+    A. It improves link performance
+    B. It shortens the time it takes to load a webpage
+    C. It can hide the destination URL, making it harder to assess
+    D. It reduces the likelihood of phishing attacks
+
+    Phishing:
+    What is spear phishing?
+    A. A fishing technique using a spear
+    B. Targeted phishing attacks on specific individuals or organizations
+    C. A form of deep-sea fishing
+    D. A phishing attack involving multiple attackers
+
+    Password Safety:
+    Why is it important to avoid using easily guessable passwords?
+    A. They make login faster
+    B. They are more memorable
+    C. They provide better security
+    D. They are easier to guess
+
+    Link Safety:
+    What is the purpose of a link in an email?
+    A. To confuse the reader
+    B. To add visual appeal
+    C. To redirect to a website or resource
+    D. To increase email length
+		*/
+			{
+				question: 'What is a common phishing method?',
+				answers: [
+					{ text: 'Encryption', correct: false },
+					{ text: 'Fake Email', correct: true },
+					{ text: 'Firewall', correct: false },
+					{ text: 'Authentication', correct: false },
+				],
+			},
+			{
+				question:
+					'Which of the following is a good practice for password safety?',
+				answers: [
+					{
+						text: 'Using the same password for multiple accounts',
+						correct: false,
+					},
+					{ text: 'Keeping the same password for a long time', correct: false },
+					{
+						text: 'Sharing passwords with friends when requested',
+						correct: false,
+					},
+					{ text: 'Enabling two-factor authentication', correct: true },
+				],
+			},
+			{
+				question: 'Why can URL shortening be a concern for link safety?',
+				answers: [
+					{ text: 'It improves link performance', correct: false },
+					{
+						text: 'It shortens the time it takes to load a webpage',
+						correct: false,
+					},
+					{
+						text: 'It can hide the destination URL, making it harder to assess',
+						correct: true,
+					},
+					{
+						text: 'It reduces the likelihood of phishing attacks',
+						correct: false,
+					},
+				],
+			},
+			{
+				question: 'What is spear phishing?',
+				answers: [
+					{ text: 'A fishing technique using a spear', correct: false },
+					{
+						text: 'Targeted phishing attacks on specific individuals or organizations',
+						correct: true,
+					},
+					{ text: 'A form of deep-sea fishing', correct: false },
+					{
+						text: 'A phishing attack involving multiple attackers',
+						correct: false,
+					},
+				],
+			},
+			{
+				question:
+					'Why is it important to avoid using easily guessable passwords?',
+				answers: [
+					{ text: 'They make login faster', correct: false },
+					{ text: 'They are more memorable', correct: false },
+					{ text: 'They provide better security', correct: true },
+					{ text: 'They are easier to guess', correct: false },
+				],
+			},
+			{
+				question: 'What is the purpose of a link in an email?',
+				answers: [
+					{ text: 'To confuse the reader', correct: false },
+					{ text: 'To add visual appeal', correct: false },
+					{ text: 'To redirect to a website or resource', correct: true },
+					{ text: 'To increase email length', correct: false },
+				],
+			},
+		],
+		hard: [
+			{
+				question: 'What is the difference between phishing and scamming?',
+				answers: [
+					{ text: 'Phishing is a type of scam', correct: true },
+					{ text: 'Scamming is a type of phishing', correct: false },
+					{ text: 'Phishing is a type of fishing', correct: false },
+					{ text: 'Scamming is a type of fishing', correct: false },
+				],
+			},
+			{
+				question:
+					'What is the role of a password manager in enhancing password safety?',
+				answers: [
+					{
+						text: 'It generates random passwords and stores them securely',
+						correct: true,
+					},
+					{ text: 'It encrypts all incoming emails', correct: false },
+					{
+						text: 'It increases the speed of internet connections',
+						correct: false,
+					},
+					{
+						text: 'It automatically changes passwords every hour',
+						correct: false,
+					},
+				],
+			},
+			{
+				question: 'How can a man-in-the-middle attack compromise link safety?',
+				answers: [
+					{
+						text: 'By intercepting communication between two parties',
+						correct: true,
+					},
+					{ text: 'By strengthening the encryption of links', correct: false },
+					{ text: 'By redirecting links to a secure server', correct: false },
+					{ text: 'By using stronger passwords', correct: false },
+				],
+			},
+			{
+				question: 'What is pretexting in the context of phishing?',
+				answers: [
+					{
+						text: 'Creating a false narrative to obtain information',
+						correct: true,
+					},
+					{
+						text: 'Pretending to be a law enforcement officer',
+						correct: false,
+					},
+					{ text: 'Using advanced encryption techniques', correct: false },
+					{
+						text: 'Initiating a phishing attack on a specific target',
+						correct: false,
+					},
+				],
+			},
+			{
+				question: 'How does biometric authentication enhance password safety?',
+				answers: [
+					{
+						text: 'By requiring users to remember complex passwords',
+						correct: false,
+					},
+					{
+						text: 'By using physical or behavioral characteristics for authentication',
+						correct: true,
+					},
+					{ text: 'By disabling password protection entirely', correct: false },
+					{ text: 'By allowing easy password recovery', correct: false },
+				],
+			},
+			{
+				question: 'Why is it risky to download files from untrusted links?',
+				answers: [
+					{ text: 'Untrusted links always contain viruses', correct: false },
+					{
+						text: 'Files from untrusted links may contain malware or ransomware',
+						correct: true,
+					},
+					{ text: 'Untrusted links are illegal', correct: false },
+					{
+						text: 'Downloading from untrusted links improves internet speed',
+						correct: false,
+					},
+				],
+			},
+			{
+				question: 'What is the purpose of a CAPTCHA in phishing prevention?',
+				answers: [
+					{ text: 'To verify the authenticity of the sender', correct: false },
+					{
+						text: 'To prevent automated bots from accessing websites or submitting forms with stolen info',
+						correct: true,
+					},
+					{
+						text: 'To encrypt sensitive information in emails',
+						correct: false,
+					},
+					{ text: 'To track the location of phishing attacks', correct: false },
+				],
+			},
+			{
+				question:
+					'What is the danger of using the same password across multiple accounts?',
+				answers: [
+					{ text: 'It simplifies password management', correct: false },
+					{
+						text: 'It reduces the risk of forgetting passwords',
+						correct: false,
+					},
+					{
+						text: 'If one account is compromised, all accounts become vulnerable',
+						correct: true,
+					},
+					{ text: 'It enhances overall security', correct: false },
+				],
+			},
+			{
+				question: 'How can an HTTPS certificate contribute to link safety?',
+				answers: [
+					{
+						text: 'By encrypting data transmitted between the user and the website',
+						correct: true,
+					},
+					{
+						text: 'By slowing down the loading time of webpages',
+						correct: false,
+					},
+					{ text: 'By displaying targeted advertisements', correct: false },
+					{
+						text: 'By preventing users from clicking on links',
+						correct: false,
+					},
+				],
+			},
+		],
 	},
 	questionIndex: 0,
 	score: 0,
