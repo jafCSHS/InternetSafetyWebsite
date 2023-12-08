@@ -104,11 +104,12 @@ body {
 }
 
 .note {
-	background-color: #292F36;
-	border: 1px solid #4e595f;
+	background-color: #ADD8E6;
+	border: 1px solid #e3f8ff;
+	color:#fff
   }
   .post-block {
-	background-color: #292F36;
+	background-color: #ADD8E6;
 	margin-bottom: 10px;
   }
   .post-block .content {
@@ -119,16 +120,18 @@ body {
 	font-size: 20px;
 	line-height: 1.5;
 	text-transform: capitalize;
+	color:#fff
   }
   
   .note .media-wrapper {
-	border-bottom: 1px solid #4e595f;
+	border-bottom: 1px solid #e3f8ff;
   }
   
   .note .excerpt h3 {
 	font-size: 20px;
 	line-height: 1.5;
 	text-transform: capitalize;
+	color: #fff;
   }
   
   .all-post {
