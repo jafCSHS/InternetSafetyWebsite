@@ -76,24 +76,6 @@ body {
 	border-radius: 0.25em;
 }
 
-.eduforums img {
-	max-height: 10em;
-	height: auto;
-}
-
-.eduforums p {
-	margin: 5px 0;
-}
-
-.eduforums a.fbutton {
-	display: inline-block;
-	padding: 8px 16px;
-	background-color: #3498db;
-	color: #fff;
-	border-radius: 4px;
-	cursor: pointer;
-}
-
 .answer {
 	width: 60%;
 	font-size: 1.2em;
@@ -137,3 +119,7 @@ body {
   .all-post {
 	margin-top: 50px;
   }
+
+  .post-block .content h3 {
+    color: #fff;
+}
